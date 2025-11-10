@@ -307,7 +307,7 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 3: invalid 
 
 还有一个常见的问题就是如何输出格式化的字符串，我们经常会输出类似 `'亲爱的xxx你好！你xx月的话费是xx，余额是xx'` 之类的字符串，而 `xxx` 的内容都是根据变量变化的，所以需要一个简便的格式化字符串的方式。
 
-![](/Users/chenhao/Documents/python/3.png)
+![3](../images/3.png)
 
 在 Python 中，采用的格式化方式和 C 语言是一致的，用`%` 实现，举例：
 
