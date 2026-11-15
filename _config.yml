@@ -96,7 +96,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: frame
+theme: cactus
+theme_config:
+  colorscheme: white
+  nav:
+    home: /
+    articles: /archives/
+  social_links: []
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
