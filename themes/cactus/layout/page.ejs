@@ -2,6 +2,7 @@
   <%- partial('_partial/post/gallery') %>
   <div class="content" itemprop="articleBody">
       <% if (page.search || page.type === "search") { %>
+        <h1><%= page.title %></h1>
         <%- partial('_partial/search') %>
       <% } else if (page.type === "tags") { %>
           <div id="tag-cloud">

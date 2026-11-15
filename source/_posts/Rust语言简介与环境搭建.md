@@ -1,7 +1,11 @@
 ---
 title: Rust 语言简介与环境搭建
 date: 2026-06-01 11:00:00
+categories:
+  - Rust
 tags:
+  - Rust
+  - 环境搭建
 ---
 
 ## 1. Rust 语言历史

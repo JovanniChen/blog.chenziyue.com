@@ -1,10 +1,14 @@
+---
 title: mise 使用详解
 date: 2026-06-11 16:55:00
-tags: mise
-
+categories:
+  - 工具
+tags:
+  - mise
+  - 开发环境
 ---
 
-### 安装
+## 安装
 
 ```bash
 brew install mise
@@ -12,7 +16,7 @@ brew install mise
 
 
 
-### 常用命令
+## 常用命令
 
 |       命令        |          作用          |
 | :---------------: | :--------------------: |

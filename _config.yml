@@ -3,22 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: Jio Chen
-language: en
-timezone: ''
+title: 陈子越的博客
+subtitle: 技术、编程与思考
+description: 记录 Go、Rust、Python 与人工智能的学习、实践和思考。
+keywords: Go, Rust, Python, 人工智能, 编程, 技术博客
+author: 陈子越
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.chenziyue.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -99,10 +99,63 @@ ignore:
 theme: cactus
 theme_config:
   colorscheme: white
+  page_width: 52
+  tags_overview:
+    amount: 12
+    min_font: 12
+    max_font: 20
+  posts_overview:
+    show_all_posts: false
+    post_count: 8
+    sort_updated: false
+  post:
+    show_updated: true
+  copyright:
+    start_year: 2025
+  logo:
+    enabled: true
+    width: 56
+    height: 56
+    url: /images/cz-mark.svg
+    gravatar: false
+    grayout: false
+  favicon:
+    desktop:
+      url: /images/cz-mark.svg
+      gravatar: false
+    android:
+      url: /images/cz-icon-192.png
+      gravatar: false
+    apple:
+      url: /images/cz-apple-180.png
+      gravatar: false
+  error_404:
+    enabled: true
+    title: 页面未找到
+    description: 你访问的页面可能已被移动、更名或删除。
+  rss: atom.xml
+  cdn:
+    enable: false
   nav:
     home: /
     articles: /archives/
+    tag: /tags/
+    category: /categories/
+    search: /search/
+    about: /about/
   social_links: []
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

@@ -12,7 +12,7 @@
           src="https://www.gravatar.com/avatar/<%= theme.gravatar.hash %>" />
       <% } %>
     <% } else { %>
-      <img id="logo" alt class="u-logo" src="<%- url_for(theme.logo.url) %>" />
+      <img id="logo" alt="<%= config.title %>" class="u-logo" src="<%- url_for(theme.logo.url) %>" />
     <% } %>
   <% } %>
     <div id="title">
